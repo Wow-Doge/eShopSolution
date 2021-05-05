@@ -7,7 +7,7 @@ using System.Text;
 
 namespace eShopSolution.Data.Configurations
 {
-    class ProductTranslationConfiguration : IEntityTypeConfiguration<ProductTranslation>
+    public class ProductTranslationConfiguration : IEntityTypeConfiguration<ProductTranslation>
     {
         public void Configure(EntityTypeBuilder<ProductTranslation> builder)
         {
